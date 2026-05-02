@@ -1,0 +1,8 @@
+.env
+*.pem
+*.key
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+.kube/config
+.DS_Store
