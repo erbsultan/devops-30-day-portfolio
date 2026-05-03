@@ -21,6 +21,30 @@ Build a strong DevOps portfolio for resume, GitHub, and Upwork.
 
 The first stage prepares a cloud VM that will later become a lightweight Kubernetes environment. Early days focus on account safety, cost awareness, SSH hardening, baseline Linux setup, and clean documentation.
 
+## Progress
+
+### Day 1 — Accounts, Billing Safety, Git Foundation
+
+- Done
+
+### Day 2 — Oracle VM Baseline
+
+- Oracle VM created
+- Security List hardened for SSH
+- SSH connection tested
+- Base packages installed
+- Hostname configured
+- UFW enabled
+
+### Day 3 — Docker Basics on Oracle VM
+
+- Docker Engine installed
+- Docker Compose plugin installed
+- Docker group configured
+- Nginx test container launched
+- Python Docker demo app built and tested
+- Docker troubleshooting documented
+
 ## Documentation
 
 - [Documentation index](docs/index.md)
@@ -29,3 +53,7 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - [Day 2 — Oracle VM Baseline](docs/day-02/oracle-vm-baseline.md)
 - [Day 2 — Security List SSH Hardening](docs/day-02/security-list-ssh-hardening.md)
 - [Day 2 — Oracle Cost Monitoring](docs/day-02/oracle-cost-monitoring.md)
+- [Day 3 — Docker Basics on Oracle VM](docs/day-03/docker-basics-on-oracle.md)
+- [Day 3 — Docker Troubleshooting](docs/day-03/docker-troubleshooting.md)
+- [Day 3 — Docker Commands](docs/day-03/docker-commands.md)
+- [Day 3 — Python Docker Demo App](apps/day3-docker-demo/README.md)
