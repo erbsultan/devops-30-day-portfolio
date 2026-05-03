@@ -1,0 +1,8 @@
+---
+- name: Ping all DevOps lab nodes
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Test SSH connection
+      ansible.builtin.ping:

@@ -6,3 +6,17 @@ terraform.tfstate.*
 .terraform/
 .kube/config
 .DS_Store
+
+# Ansible private inventory
+infra/ansible/inventory/hosts.ini
+
+# Terraform
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
