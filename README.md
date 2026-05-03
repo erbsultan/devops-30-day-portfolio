@@ -19,7 +19,7 @@ Build a strong DevOps portfolio for resume, GitHub, and Upwork.
 
 ## Current Lab Direction
 
-The first stage prepares a cloud VM that will later become a lightweight Kubernetes environment. Early days focus on account safety, cost awareness, SSH hardening, baseline Linux setup, and clean documentation.
+The first stage prepares a cloud VM that will later become a lightweight Kubernetes environment. Early days focus on account safety, cost awareness, SSH hardening, baseline Linux setup, Docker fundamentals, and multi-container application stacks.
 
 ## Progress
 
@@ -45,6 +45,16 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - Python Docker demo app built and tested
 - Docker troubleshooting documented
 
+### Day 4 — Docker Compose Stack
+
+- Multi-container stack created
+- Flask API containerized
+- PostgreSQL service added
+- Redis service added
+- Healthchecks configured
+- Port binding hardened to localhost
+- Compose troubleshooting documented
+
 ## Documentation
 
 - [Documentation index](docs/index.md)
@@ -57,3 +67,8 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - [Day 3 — Docker Troubleshooting](docs/day-03/docker-troubleshooting.md)
 - [Day 3 — Docker Commands](docs/day-03/docker-commands.md)
 - [Day 3 — Python Docker Demo App](apps/day3-docker-demo/README.md)
+- [Day 4 — Docker Compose Stack](docs/day-04/docker-compose-stack.md)
+- [Day 4 — Docker Compose Commands](docs/day-04/docker-compose-commands.md)
+- [Day 4 — Docker Compose Troubleshooting](docs/day-04/docker-compose-troubleshooting.md)
+- [Day 4 — Compose Security Notes](docs/day-04/compose-security-notes.md)
+- [Day 4 — Compose API Stack App](apps/compose-api-stack/README.md)
