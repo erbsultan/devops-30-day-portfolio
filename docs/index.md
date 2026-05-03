@@ -4,6 +4,15 @@ This page is the navigation entry point for the portfolio documentation.
 
 For daily completion status, use the [progress tracker](progress.md).
 
+## Week 1 Review
+
+- [Week 1 review](week-01-review.md)
+- [Architecture](architecture.md)
+- [Cloud node inventory](inventory.md)
+- [Security summary](security-summary.md)
+- [Cost notes](cost-notes.md)
+- [Next steps: Week 2](next-steps-week-02.md)
+
 ## Day 1
 
 ### Accounts, Billing Safety, Git Foundation
@@ -56,6 +65,12 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md)
 - [Ansible ping results](day-06/ansible-ping-results.md)
 
+## Day 7
+
+### Week 1 Review and Documentation
+
+- [Day 7 Week 1 documentation](day-07/week-01-documentation.md)
+
 ## Infrastructure
 
 | Area | Docs |
@@ -68,9 +83,10 @@ For daily completion status, use the [progress tracker](progress.md).
 | Vultr worker | [Day 5 Vultr worker baseline](day-05/vultr-worker-baseline.md) |
 | Terraform + Ansible skeleton | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
 | Ansible verification | [Day 6 Ansible ping results](day-06/ansible-ping-results.md) |
+| Week 1 architecture | [Architecture](architecture.md) |
 | Demo apps | [Day 3 Python Docker app](../apps/day3-docker-demo/README.md) |
 | Compose apps | [Day 4 Compose API stack](../apps/compose-api-stack/README.md) |
-| Future Kubernetes | Oracle master + AWS/Vultr workers planned for later days |
+| Future Kubernetes | [Next steps: Week 2](next-steps-week-02.md) |
 | Future IaC | Terraform skeleton started on Day 6 |
 
 ## Security
@@ -86,6 +102,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Compose troubleshooting | [Day 4 Docker Compose troubleshooting](day-04/docker-compose-troubleshooting.md) |
 | Multi-cloud SSH hardening | [Day 5 security hardening notes](day-05/security-hardening-notes.md) |
 | Ansible private inventory | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
+| Week 1 security summary | [Security summary](security-summary.md) |
 | Secrets hygiene | Use placeholders in public docs |
 
 ## Budget
@@ -97,6 +114,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Day 4 trial-credit resource note | [Day 4 Docker Compose stack](day-04/docker-compose-stack.md) |
 | Day 5 multi-cloud cost control | [Day 5 cost control notes](day-05/cost-control-notes.md) |
 | Day 6 post-test shutdown | [Ansible ping results](day-06/ansible-ping-results.md) |
+| Week 1 cost summary | [Cost notes](cost-notes.md) |
 | Daily billing checks | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 
 ## GitHub / Git
@@ -106,3 +124,4 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Day 3 Python Docker demo app](../apps/day3-docker-demo/README.md)
 - [Day 4 Compose API stack app](../apps/compose-api-stack/README.md)
 - [Day 5 commands](day-05/day-05-commands.md)
+- [Day 7 Week 1 documentation](day-07/week-01-documentation.md)
