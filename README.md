@@ -55,6 +55,16 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - Port binding hardened to localhost
 - Compose troubleshooting documented
 
+### Day 5 — AWS + Vultr VM Creation
+
+- AWS EC2 worker created and baseline configured
+- Vultr worker created and baseline configured
+- Vultr non-root devops user created
+- SSH access hardened
+- UFW configured
+- All three cloud nodes stopped after setup
+- Inventory documented
+
 ## Documentation
 
 - [Documentation index](docs/index.md)
@@ -72,3 +82,10 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - [Day 4 — Docker Compose Troubleshooting](docs/day-04/docker-compose-troubleshooting.md)
 - [Day 4 — Compose Security Notes](docs/day-04/compose-security-notes.md)
 - [Day 4 — Compose API Stack App](apps/compose-api-stack/README.md)
+- [Day 5 — AWS + Vultr VM Creation](docs/day-05/aws-vultr-vm-creation.md)
+- [Day 5 — AWS Worker Baseline](docs/day-05/aws-worker-baseline.md)
+- [Day 5 — Vultr Worker Baseline](docs/day-05/vultr-worker-baseline.md)
+- [Day 5 — Security Hardening Notes](docs/day-05/security-hardening-notes.md)
+- [Day 5 — Cost Control Notes](docs/day-05/cost-control-notes.md)
+- [Day 5 — Commands](docs/day-05/day-05-commands.md)
+- [Cloud Node Inventory](docs/inventory.md)

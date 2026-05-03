@@ -37,6 +37,18 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Compose security notes](day-04/compose-security-notes.md)
 - [Compose API stack app](../apps/compose-api-stack/README.md)
 
+## Day 5
+
+### AWS + Vultr VM Creation
+
+- [AWS + Vultr VM creation](day-05/aws-vultr-vm-creation.md)
+- [AWS worker baseline](day-05/aws-worker-baseline.md)
+- [Vultr worker baseline](day-05/vultr-worker-baseline.md)
+- [Security hardening notes](day-05/security-hardening-notes.md)
+- [Cost control notes](day-05/cost-control-notes.md)
+- [Day 5 commands](day-05/day-05-commands.md)
+- [Cloud node inventory](inventory.md)
+
 ## Infrastructure
 
 | Area | Docs |
@@ -44,10 +56,13 @@ For daily completion status, use the [progress tracker](progress.md).
 | Oracle VM | [Day 2 baseline](day-02/oracle-vm-baseline.md) |
 | Docker on Oracle VM | [Day 3 Docker basics](day-03/docker-basics-on-oracle.md) |
 | Docker Compose on Oracle VM | [Day 4 Docker Compose stack](day-04/docker-compose-stack.md) |
+| Multi-cloud inventory | [Cloud node inventory](inventory.md) |
+| AWS worker | [Day 5 AWS worker baseline](day-05/aws-worker-baseline.md) |
+| Vultr worker | [Day 5 Vultr worker baseline](day-05/vultr-worker-baseline.md) |
 | Demo apps | [Day 3 Python Docker app](../apps/day3-docker-demo/README.md) |
 | Compose apps | [Day 4 Compose API stack](../apps/compose-api-stack/README.md) |
-| Future Kubernetes | Planned for later days |
-| Future IaC | Planned for later days |
+| Future Kubernetes | Oracle master + AWS/Vultr workers planned for later days |
+| Future IaC | Planned for Day 6 |
 
 ## Security
 
@@ -60,6 +75,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Docker troubleshooting | [Day 3 Docker troubleshooting](day-03/docker-troubleshooting.md) |
 | Compose localhost binding | [Compose security notes](day-04/compose-security-notes.md) |
 | Compose troubleshooting | [Day 4 Docker Compose troubleshooting](day-04/docker-compose-troubleshooting.md) |
+| Multi-cloud SSH hardening | [Day 5 security hardening notes](day-05/security-hardening-notes.md) |
 | Secrets hygiene | Use placeholders in public docs |
 
 ## Budget
@@ -69,6 +85,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Billing safety baseline | [Day 1 foundation](day-01/accounts-billing-git-foundation.md) |
 | Oracle A2 cost awareness | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 | Day 4 trial-credit resource note | [Day 4 Docker Compose stack](day-04/docker-compose-stack.md) |
+| Day 5 multi-cloud cost control | [Day 5 cost control notes](day-05/cost-control-notes.md) |
 | Daily billing checks | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 
 ## GitHub / Git
@@ -77,3 +94,4 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Progress tracker](progress.md)
 - [Day 3 Python Docker demo app](../apps/day3-docker-demo/README.md)
 - [Day 4 Compose API stack app](../apps/compose-api-stack/README.md)
+- [Day 5 commands](day-05/day-05-commands.md)
