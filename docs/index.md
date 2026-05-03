@@ -49,6 +49,13 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Day 5 commands](day-05/day-05-commands.md)
 - [Cloud node inventory](inventory.md)
 
+## Day 6
+
+### Terraform and Ansible Skeleton
+
+- [Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md)
+- [Ansible ping results](day-06/ansible-ping-results.md)
+
 ## Infrastructure
 
 | Area | Docs |
@@ -59,10 +66,12 @@ For daily completion status, use the [progress tracker](progress.md).
 | Multi-cloud inventory | [Cloud node inventory](inventory.md) |
 | AWS worker | [Day 5 AWS worker baseline](day-05/aws-worker-baseline.md) |
 | Vultr worker | [Day 5 Vultr worker baseline](day-05/vultr-worker-baseline.md) |
+| Terraform + Ansible skeleton | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
+| Ansible verification | [Day 6 Ansible ping results](day-06/ansible-ping-results.md) |
 | Demo apps | [Day 3 Python Docker app](../apps/day3-docker-demo/README.md) |
 | Compose apps | [Day 4 Compose API stack](../apps/compose-api-stack/README.md) |
 | Future Kubernetes | Oracle master + AWS/Vultr workers planned for later days |
-| Future IaC | Planned for Day 6 |
+| Future IaC | Terraform skeleton started on Day 6 |
 
 ## Security
 
@@ -76,6 +85,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Compose localhost binding | [Compose security notes](day-04/compose-security-notes.md) |
 | Compose troubleshooting | [Day 4 Docker Compose troubleshooting](day-04/docker-compose-troubleshooting.md) |
 | Multi-cloud SSH hardening | [Day 5 security hardening notes](day-05/security-hardening-notes.md) |
+| Ansible private inventory | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
 | Secrets hygiene | Use placeholders in public docs |
 
 ## Budget
@@ -86,6 +96,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Oracle A2 cost awareness | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 | Day 4 trial-credit resource note | [Day 4 Docker Compose stack](day-04/docker-compose-stack.md) |
 | Day 5 multi-cloud cost control | [Day 5 cost control notes](day-05/cost-control-notes.md) |
+| Day 6 post-test shutdown | [Ansible ping results](day-06/ansible-ping-results.md) |
 | Daily billing checks | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 
 ## GitHub / Git

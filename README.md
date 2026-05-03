@@ -65,6 +65,20 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - All three cloud nodes stopped after setup
 - Inventory documented
 
+### Day 6 — Terraform + Ansible Skeleton
+
+- Terraform installed locally
+- Ansible installed locally
+- IaC structure created
+- Ansible inventory template created
+- Private inventory ignored by Git
+- Ansible config verified
+- Multi-cloud Ansible ping completed successfully
+- All three nodes stopped after verification
+- Docs:
+  - [Terraform + Ansible skeleton](docs/day-06/terraform-ansible-skeleton.md)
+  - [Ansible ping results](docs/day-06/ansible-ping-results.md)
+
 ## Documentation
 
 - [Documentation index](docs/index.md)
@@ -88,4 +102,6 @@ The first stage prepares a cloud VM that will later become a lightweight Kuberne
 - [Day 5 — Security Hardening Notes](docs/day-05/security-hardening-notes.md)
 - [Day 5 — Cost Control Notes](docs/day-05/cost-control-notes.md)
 - [Day 5 — Commands](docs/day-05/day-05-commands.md)
+- [Day 6 — Terraform + Ansible Skeleton](docs/day-06/terraform-ansible-skeleton.md)
+- [Day 6 — Ansible Ping Results](docs/day-06/ansible-ping-results.md)
 - [Cloud Node Inventory](docs/inventory.md)
