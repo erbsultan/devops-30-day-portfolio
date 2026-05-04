@@ -15,9 +15,9 @@ Planned outcomes:
 - Ingress controller.
 - Basic monitoring preparation.
 
-## 📅 Day 8 Preview
+## ✅ Day 8 Completed
 
-Day 8 focus: WireGuard network.
+Day 8 completed the WireGuard multi-cloud VPN network.
 
 VPN IP plan:
 
@@ -29,16 +29,34 @@ VPN IP plan:
 
 Security plan:
 
-- Open `51820/UDP` only between cloud node public IPs.
-- Keep SSH restricted to `<HOME_PUBLIC_IP>/32`.
-- Do not expose Kubernetes API publicly.
-- Access Kubernetes API through VPN or SSH tunnel only.
+- `51820/UDP` opened only between cloud node public IPs.
+- SSH restricted to `<HOME_PUBLIC_IP>/32`.
+- WireGuard handshakes verified between all nodes.
+- VPN ping tests passed.
+- Kubernetes API is not exposed publicly.
+- All nodes stopped after verification.
+
+## ➡️ Day 9 Next
+
+Day 9 target: install k3s server on Oracle using VPN IP `10.50.0.1`.
+
+Command pattern to document and adapt during Day 9:
+
+```bash
+curl -sfL https://get.k3s.io | \
+INSTALL_K3S_EXEC="server \
+--node-name oci-k3s-master \
+--node-ip 10.50.0.1 \
+--advertise-address 10.50.0.1 \
+--write-kubeconfig-mode 644" \
+sh -
+```
 
 ## 🧱 Week 2 Roadmap
 
 | Day | Focus | Expected result |
 |---|---|---|
-| Day 8 | WireGuard | private network between nodes |
+| Day 8 | WireGuard | DONE: private network between nodes |
 | Day 9 | k3s master | Oracle runs k3s server |
 | Day 10 | join workers | AWS and Vultr join cluster |
 | Day 11 | namespaces/test workload | cluster workload validation |

@@ -17,7 +17,7 @@ Current cloud layout:
 
 ## ✅ Current Status
 
-Week 1 is completed.
+Week 1 is completed. Week 2 has started.
 
 Week 1 result:
 
@@ -29,19 +29,20 @@ Week 1 result:
 - AWS and Vultr worker nodes created and hardened.
 - Terraform and Ansible skeleton created.
 - Ansible ping across all 3 cloud nodes completed successfully.
+- Day 8 WireGuard multi-cloud VPN network completed.
 - All cloud nodes stopped after verification.
 
 ## 🧭 Architecture Summary
 
 The current architecture is a secured multi-cloud lab foundation. Kubernetes is not installed yet.
 
-| Node | Cloud | Role | Public IP | Status |
-|---|---|---|---|---|
-| `oci-k3s-master` | Oracle Cloud | future k3s master | `<ORACLE_PUBLIC_IP>` | stopped |
-| `aws-k3s-worker-1` | AWS EC2 | future k3s worker #1 | `<AWS_PUBLIC_IP>` | stopped |
-| `vultr-k3s-worker-2` | Vultr | future k3s worker #2 / monitoring | `<VULTR_PUBLIC_IP>` | stopped |
+| Node | Cloud | Role | Public IP | VPN IP | Status |
+|---|---|---|---|---|---|
+| `oci-k3s-master` | Oracle Cloud | future k3s master | `<ORACLE_PUBLIC_IP>` | `10.50.0.1` | stopped |
+| `aws-k3s-worker-1` | AWS EC2 | future k3s worker #1 | `<AWS_PUBLIC_IP>` | `10.50.0.2` | stopped |
+| `vultr-k3s-worker-2` | Vultr | future k3s worker #2 / monitoring | `<VULTR_PUBLIC_IP>` | `10.50.0.3` | stopped |
 
-Week 2 will add WireGuard and k3s.
+Week 2 now has WireGuard VPN completed. Next step is k3s master on Oracle.
 
 ## 📈 Progress
 
@@ -104,6 +105,16 @@ Week 2 will add WireGuard and k3s.
 - Public documentation checked for placeholders and sensitive data hygiene.
 - Portfolio docs prepared for Week 2 Kubernetes/k3s work.
 
+### Day 8 — WireGuard Multi-Cloud VPN Network
+
+- WireGuard installed on Oracle, AWS and Vultr.
+- VPN IPs configured: Oracle `10.50.0.1`, AWS `10.50.0.2`, Vultr `10.50.0.3`.
+- Cloud firewall rules configured for SSH and WireGuard only.
+- UFW rules hardened on all nodes.
+- WireGuard handshakes verified between all nodes.
+- VPN ping tests successful with `0% packet loss`.
+- All nodes stopped after verification.
+
 ## 📚 Documentation
 
 - [Documentation index](docs/index.md)
@@ -114,6 +125,10 @@ Week 2 will add WireGuard and k3s.
 - [Cost Notes](docs/cost-notes.md)
 - [Next Steps: Week 2](docs/next-steps-week-02.md)
 - [Day 7 Documentation](docs/day-07/week-01-documentation.md)
+- [Day 8 WireGuard Multi-Cloud VPN Network](docs/day-08/wireguard-multicloud-network.md)
+- [Day 8 WireGuard Commands](docs/day-08/wireguard-commands.md)
+- [Day 8 WireGuard Security Notes](docs/day-08/wireguard-security-notes.md)
+- [Day 8 WireGuard Troubleshooting](docs/day-08/wireguard-troubleshooting.md)
 
 Daily docs:
 
@@ -124,6 +139,10 @@ Daily docs:
 - [Day 5 — AWS + Vultr VM Creation](docs/day-05/aws-vultr-vm-creation.md)
 - [Day 6 — Terraform + Ansible Skeleton](docs/day-06/terraform-ansible-skeleton.md)
 - [Day 6 — Ansible Ping Results](docs/day-06/ansible-ping-results.md)
+- [Day 8 — WireGuard Multi-Cloud VPN Network](docs/day-08/wireguard-multicloud-network.md)
+- [Day 8 — WireGuard Commands](docs/day-08/wireguard-commands.md)
+- [Day 8 — WireGuard Security Notes](docs/day-08/wireguard-security-notes.md)
+- [Day 8 — WireGuard Troubleshooting](docs/day-08/wireguard-troubleshooting.md)
 
 ## 🔐 Public Documentation Rules
 

@@ -71,6 +71,15 @@ For daily completion status, use the [progress tracker](progress.md).
 
 - [Day 7 Week 1 documentation](day-07/week-01-documentation.md)
 
+## Day 8
+
+### WireGuard Multi-Cloud VPN Network
+
+- [WireGuard multi-cloud network](day-08/wireguard-multicloud-network.md)
+- [WireGuard commands](day-08/wireguard-commands.md)
+- [WireGuard security notes](day-08/wireguard-security-notes.md)
+- [WireGuard troubleshooting](day-08/wireguard-troubleshooting.md)
+
 ## Infrastructure
 
 | Area | Docs |
@@ -83,6 +92,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Vultr worker | [Day 5 Vultr worker baseline](day-05/vultr-worker-baseline.md) |
 | Terraform + Ansible skeleton | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
 | Ansible verification | [Day 6 Ansible ping results](day-06/ansible-ping-results.md) |
+| WireGuard VPN | [Day 8 WireGuard multi-cloud network](day-08/wireguard-multicloud-network.md) |
 | Week 1 architecture | [Architecture](architecture.md) |
 | Demo apps | [Day 3 Python Docker app](../apps/day3-docker-demo/README.md) |
 | Compose apps | [Day 4 Compose API stack](../apps/compose-api-stack/README.md) |
@@ -102,6 +112,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Compose troubleshooting | [Day 4 Docker Compose troubleshooting](day-04/docker-compose-troubleshooting.md) |
 | Multi-cloud SSH hardening | [Day 5 security hardening notes](day-05/security-hardening-notes.md) |
 | Ansible private inventory | [Day 6 Terraform and Ansible skeleton](day-06/terraform-ansible-skeleton.md) |
+| WireGuard VPN security | [Day 8 WireGuard security notes](day-08/wireguard-security-notes.md) |
 | Week 1 security summary | [Security summary](security-summary.md) |
 | Secrets hygiene | Use placeholders in public docs |
 
@@ -114,6 +125,7 @@ For daily completion status, use the [progress tracker](progress.md).
 | Day 4 trial-credit resource note | [Day 4 Docker Compose stack](day-04/docker-compose-stack.md) |
 | Day 5 multi-cloud cost control | [Day 5 cost control notes](day-05/cost-control-notes.md) |
 | Day 6 post-test shutdown | [Ansible ping results](day-06/ansible-ping-results.md) |
+| Day 8 post-VPN shutdown | [Day 8 WireGuard multi-cloud network](day-08/wireguard-multicloud-network.md) |
 | Week 1 cost summary | [Cost notes](cost-notes.md) |
 | Daily billing checks | [Oracle cost monitoring](day-02/oracle-cost-monitoring.md) |
 
@@ -125,3 +137,4 @@ For daily completion status, use the [progress tracker](progress.md).
 - [Day 4 Compose API stack app](../apps/compose-api-stack/README.md)
 - [Day 5 commands](day-05/day-05-commands.md)
 - [Day 7 Week 1 documentation](day-07/week-01-documentation.md)
+- [Day 8 WireGuard commands](day-08/wireguard-commands.md)
